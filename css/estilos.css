@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Georama', sans-serif;
   background-color: black;
   background-image: url("https://filmrise.com/uploads/images/_xLarge/3rdRock-1.jpg");
   background-position: top center;
@@ -31,6 +32,7 @@ body {
   background-color: white;
   padding-left: 200px;
   padding-right: 200px;
+  font-size: 18px;
 }
 
 .navbar.inicio {
@@ -53,17 +55,18 @@ body {
 }
 
 .navbar.inicio .menu {
-  font-size: 20px;
+  font-size: 30px;
   margin-right: auto;
 }
 
 .navbar.inicio .menu .item a {
   color: white;
   opacity: 0.8;
+  padding: 20px 50px;
 }
 
 .navbar.inicio .menu .item a .icono {
-  height: 20px;
+  height: 30px;
 }
 
 .navbar .logo {
@@ -123,11 +126,14 @@ body {
 .contenido h1 {
   margin: 50px 0;
   font-size: 55px;
+  font-weight: 700;
 }
 
 .contenido h2 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 35px;
 }
 
 .contenido .sinopsis {
@@ -137,7 +143,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .contenido .sinopsis .detalles {
@@ -151,17 +157,21 @@ body {
 
 .contenido .sinopsis .detalles ul li {
   margin-bottom: 10px;
+  font-weight: 300;
 }
 
-.contenido .sinopsis .detalles ul li b {
+.contenido .sinopsis .detalles ul li span {
   margin-right: 10px;
+  font-weight: 600;
 }
 
 .contenido .sinopsis .parrafo {
   width: 100%;
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 2px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 
 .contenido .reparto,
@@ -186,21 +196,22 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 100px;
-  margin-bottom: 30px;
-  font-size: 18px;
+  margin-bottom: 35px;
+  font-size: 20px;
 }
 
 .contenido .reparto .persona .nombre,
 .contenido .produccion .persona .nombre {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .contenido .reparto .persona .rol,
 .contenido .produccion .persona .rol {
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
-  margin-bottom: 10px;
+  font-weight: 300;
+  margin-bottom: 5px;
 }
 
 .contenido .reparto .persona .social,
@@ -236,9 +247,9 @@ body {
 }
 
 .contenido .produccion .participacion {
-  max-width: 300px;
-  margin-right: 75px;
-  margin-bottom: 100px;
+  width: 25%;
+  margin-bottom: 75px;
+  padding: 10px;
 }
 
 .contenido .produccion .participacion .persona {
@@ -247,5 +258,5 @@ body {
 }
 
 .contenido .produccion .participacion .persona .nombre {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
