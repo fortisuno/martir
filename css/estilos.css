@@ -104,6 +104,7 @@ body {
 
 .navbar .menu .item a .icono {
   margin-right: 7px;
+  height: 18px;
 }
 
 .contenido {
@@ -123,8 +124,25 @@ body {
   display: block;
 }
 
+.contenido .productora {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenido .productora img {
+  height: 80px;
+}
+
 .contenido h1 {
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 70px;
   font-size: 55px;
   font-weight: 700;
 }
