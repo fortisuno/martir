@@ -9,8 +9,10 @@
 body {
   font-family: 'Georama', sans-serif;
   background-color: black;
-  background-image: url("https://filmrise.com/uploads/images/_xLarge/3rdRock-1.jpg");
-  background-position: top center;
+  /* background-image: url("https://filmrise.com/uploads/images/_xLarge/3rdRock-1.jpg"); */
+  /* background-position: top center; */
+  background-image: url("../img/PosterMártir2-1.jpg");
+  background-position: center -1600px;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
