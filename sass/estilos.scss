@@ -88,7 +88,10 @@ body {
    background-color: rgba($color: #000000, $alpha: 0.6);
    color: white;
    &.margenes {
-      padding: 50px 200px;
+      padding-top: 50px;
+      padding-bottom: 100px;
+      padding-left: 200px;
+      padding-right: 200px;
    }
    .video {
       width: 100%;
@@ -113,7 +116,7 @@ body {
       text-align: center;
       margin-bottom: 35px;
       font-weight: 700;
-      font-size: 35px;
+      font-size: 30px;
    }
    .sinopsis {
       display: flex;
@@ -147,14 +150,15 @@ body {
    .reparto,
    .produccion {
       display: flex;
+      justify-content: center;
       flex-wrap: wrap;
       .persona {
          display: flex;
          flex-direction: column;
          align-items: center;
-         margin-right: 100px;
-         margin-bottom: 35px;
+         margin-bottom: 40px;
          font-size: 20px;
+         padding: 0 35px;
          .nombre {
             font-size: 24px;
             font-weight: 500;
@@ -186,12 +190,13 @@ body {
    .produccion {
       justify-content: center;
       .participacion {
-         width: 25%;
-         margin-bottom: 75px;
-         padding: 10px;
+         width: 33.333%;
+         margin-bottom: 40px;
+         padding: 5px;
          .persona {
             text-align: center;
             width: 100%;
+            padding: 0px;
             .nombre {
                margin-bottom: 5px;
             }
