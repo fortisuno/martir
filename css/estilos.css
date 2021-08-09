@@ -9,10 +9,8 @@
 body {
   font-family: 'Georama', sans-serif;
   background-color: black;
-  /* background-image: url("https://filmrise.com/uploads/images/_xLarge/3rdRock-1.jpg"); */
-  /* background-position: top center; */
-  background-image: url("../img/PosterMártir2-1.jpg");
-  background-position: center -1600px;
+  background-image: url("../img/wallpaper.jpg");
+  background-position: top center;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
@@ -99,7 +97,7 @@ body {
 }
 
 .navbar .menu .item a.activo {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 32, 100, 0.8);
   color: white;
   opacity: 1;
 }
@@ -112,7 +110,7 @@ body {
 .contenido {
   overflow-y: auto;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 
@@ -172,6 +170,11 @@ body {
 .contenido .sinopsis .detalles {
   width: 500px;
   margin-right: 50px;
+}
+
+.contenido .sinopsis .detalles .poster {
+  width: 75%;
+  margin-bottom: 30px;
 }
 
 .contenido .sinopsis .detalles ul {
@@ -287,3 +290,4 @@ body {
 .contenido .produccion .participacion .persona .nombre {
   margin-bottom: 5px;
 }
+/*# sourceMappingURL=estilos.css.map */
